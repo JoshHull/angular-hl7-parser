@@ -4,9 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { SwapiService } from './swapi.service';
-import { Sorter } from './sorter';
-import { SwapiData } from './swapi-data';
 import { Hl7Reference } from './hl7-reference';
 
 import { PopoverModule } from 'ngx-bootstrap/popover';
