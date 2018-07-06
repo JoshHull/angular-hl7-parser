@@ -1,0 +1,1195 @@
+{
+    "messageMetaData": {
+        "id": 12610,
+        "messageControlId": "3WzJ-A.01.01.2aF",
+        "cvxList": "21 (Varicella)",
+        "received": 1505827767000,
+        "ackStatus": "AE",
+        "patientName": "McCracken, Vinvella"
+    },
+    "vxuParts": [
+        {   
+            "value": "MSH",
+            "location": "MSH-0",
+            "fieldRepetition": 1,
+            "segmentIndex": 0,
+            "valueIndex": 0,
+            "locationDescription": "Message Header"
+        },
+        {
+            "value": "|",
+            "location": "MSH-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 0,
+            "valueIndex": 1,
+            "locationDescription": "Field Separator"
+        },
+        {
+            "value": "^~\\&",
+            "location": "MSH-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 0,
+            "valueIndex": 2,
+            "locationDescription": "Encoding Characters"
+        },
+        {
+            "value": "1255-60-20",
+            "location": "MSH-4-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 0,
+            "valueIndex": 3,
+            "locationDescription": "Sending Facility - Namespace ID"
+        },
+        {
+            "value": "MCIR",
+            "location": "MSH-5-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 0,
+            "valueIndex": 4,
+            "locationDescription": "Receiving Application - Namespace ID"
+        },
+        {
+            "value": "MDCH",
+            "location": "MSH-6-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 0,
+            "valueIndex": 5,
+            "locationDescription": "Receiving Facility - Namespace ID"
+        },
+        {
+            "value": "20170301131228-0500",
+            "location": "MSH-7-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 0,
+            "valueIndex": 6,
+            "locationDescription": "Date/Time Of Message - Time"
+        },
+        {
+            "value": "VXU",
+            "location": "MSH-9-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 0,
+            "valueIndex": 7,
+            "locationDescription": "Message Type - Message Code"
+        },
+        {
+            "value": "V04",
+            "location": "MSH-9-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 0,
+            "valueIndex": 8,
+            "locationDescription": "Message Type - Trigger Event"
+        },
+        {
+            "value": "VXU_V04",
+            "location": "MSH-9-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 0,
+            "valueIndex": 9,
+            "locationDescription": "Message Type - Message Structure"
+        },
+        {
+            "value": "3WzJ-A.01.01.2aF",
+            "location": "MSH-10",
+            "fieldRepetition": 1,
+            "segmentIndex": 0,
+            "valueIndex": 10,
+            "locationDescription": "Message Control ID"
+        },
+        {
+            "value": "T",
+            "location": "MSH-11-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 0,
+            "valueIndex": 11,
+            "locationDescription": "Processing ID - Processing ID"
+        },
+        {
+            "value": "2.5.1",
+            "location": "MSH-12-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 0,
+            "valueIndex": 12,
+            "locationDescription": "Version ID - Version ID"
+        },
+        {
+            "value": "PID",
+            "location": "PID-0",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 13,
+            "locationDescription": "Patient Identification"
+        },
+        {
+            "value": "3WzJ-A.01.01",
+            "location": "PID-3-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 14,
+            "locationDescription": "Patient Identifier List - ID Number"
+        },
+        {
+            "value": "AIRA-TEST",
+            "location": "PID-3-4-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 15,
+            "locationDescription": "Patient Identifier List - Assigning Authority - Namespace ID"
+        },
+        {
+            "value": "MR",
+            "location": "PID-3-5",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 16,
+            "locationDescription": "Patient Identifier List - Identifier Type Code"
+        },
+        {
+            "value": "McCracken",
+            "location": "PID-5-1-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 17,
+            "locationDescription": "Patient Name - Family Name - Surname"
+        },
+        {
+            "value": "Vinvella",
+            "location": "PID-5-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 18,
+            "locationDescription": "Patient Name - Given Name"
+        },
+        {
+            "value": "L",
+            "location": "PID-5-7",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 19,
+            "locationDescription": "Patient Name - Name Type Code"
+        },
+        {
+            "value": "Butler",
+            "location": "PID-6-1-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 20,
+            "locationDescription": "Mother's Maiden Name - Family Name - Surname"
+        },
+        {
+            "value": "Pauline",
+            "location": "PID-6-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 21,
+            "locationDescription": "Mother's Maiden Name - Given Name"
+        },
+        {
+            "value": "20130225",
+            "location": "PID-7-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 22,
+            "locationDescription": "Date/Time of Birth - Time"
+        },
+        {
+            "value": "F",
+            "location": "PID-8",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 23,
+            "locationDescription": "Administrative Sex"
+        },
+        {
+            "value": "2076-8",
+            "location": "PID-10-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 24,
+            "locationDescription": "Race - Identifier"
+        },
+        {
+            "value": "Native Hawaiian or Other Pacific Islander",
+            "location": "PID-10-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 25,
+            "locationDescription": "Race - Text"
+        },
+        {
+            "value": "HL70005",
+            "location": "PID-10-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 26,
+            "locationDescription": "Race - Name of Coding System"
+        },
+        {
+            "value": "81 Page Pl",
+            "location": "PID-11-1-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 27,
+            "locationDescription": "Patient Address - Street Address - Street or Mailing Address"
+        },
+        {
+            "value": "GR",
+            "location": "PID-11-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 28,
+            "locationDescription": "Patient Address - City"
+        },
+        {
+            "value": "MI",
+            "location": "PID-11-4",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 29,
+            "locationDescription": "Patient Address - State or Province"
+        },
+        {
+            "value": "49544",
+            "location": "PID-11-5",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 30,
+            "locationDescription": "Patient Address - Zip or Postal Code"
+        },
+        {
+            "value": "USA",
+            "location": "PID-11-6",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 31,
+            "locationDescription": "Patient Address - Country"
+        },
+        {
+            "value": "P",
+            "location": "PID-11-7",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 32,
+            "locationDescription": "Patient Address - Address Type"
+        },
+        {
+            "value": "PRN",
+            "location": "PID-13-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 33,
+            "locationDescription": "Phone Number - Home - Telecommunication Use Code"
+        },
+        {
+            "value": "PH",
+            "location": "PID-13-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 34,
+            "locationDescription": "Phone Number - Home - Telecommunication Equipment Type"
+        },
+        {
+            "value": "616",
+            "location": "PID-13-6",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 35,
+            "locationDescription": "Phone Number - Home - Area/City Code"
+        },
+        {
+            "value": "9245843",
+            "location": "PID-13-7",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 36,
+            "locationDescription": "Phone Number - Home - Local Number"
+        },
+        {
+            "value": "2135-2",
+            "location": "PID-22-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 37,
+            "locationDescription": "Ethnic Group - Identifier"
+        },
+        {
+            "value": "Hispanic or Latino",
+            "location": "PID-22-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 38,
+            "locationDescription": "Ethnic Group - Text"
+        },
+        {
+            "value": "HL70005",
+            "location": "PID-22-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 1,
+            "valueIndex": 39,
+            "locationDescription": "Ethnic Group - Name of Coding System"
+        },
+        {
+            "value": "PD1",
+            "location": "PD1-0",
+            "fieldRepetition": 1,
+            "segmentIndex": 2,
+            "valueIndex": 40,
+            "locationDescription": "Additional Demographic"
+        },
+        {
+            "value": "02",
+            "location": "PD1-11-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 2,
+            "valueIndex": 41,
+            "locationDescription": "Publicity Code - Identifier"
+        },
+        {
+            "value": "Reminder/Recall - any method",
+            "location": "PD1-11-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 2,
+            "valueIndex": 42,
+            "locationDescription": "Publicity Code - Text"
+        },
+        {
+            "value": "HL70215",
+            "location": "PD1-11-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 2,
+            "valueIndex": 43,
+            "locationDescription": "Publicity Code - Name of Coding System"
+        },
+        {
+            "value": "A",
+            "location": "PD1-16",
+            "fieldRepetition": 1,
+            "segmentIndex": 2,
+            "valueIndex": 44,
+            "locationDescription": "Immunization Registry Status"
+        },
+        {
+            "value": "20170301",
+            "location": "PD1-17",
+            "fieldRepetition": 1,
+            "segmentIndex": 2,
+            "valueIndex": 45,
+            "locationDescription": "Immunization Registry Status Effective Date"
+        },
+        {
+            "value": "20170301",
+            "location": "PD1-18",
+            "fieldRepetition": 1,
+            "segmentIndex": 2,
+            "valueIndex": 46,
+            "locationDescription": "Publicity Code Effective Date"
+        },
+        {
+            "value": "NK1",
+            "location": "NK1-0",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 47,
+            "locationDescription": "Next of Kin / Associated Parties"
+        },
+        {
+            "value": "1",
+            "location": "NK1-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 48,
+            "locationDescription": "Set ID - NK1"
+        },
+        {
+            "value": "McCracken",
+            "location": "NK1-2-1-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 49,
+            "locationDescription": "Name - Family Name - Surname"
+        },
+        {
+            "value": "Pauline",
+            "location": "NK1-2-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 50,
+            "locationDescription": "Name - Given Name"
+        },
+        {
+            "value": "L",
+            "location": "NK1-2-7",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 51,
+            "locationDescription": "Name - Name Type Code"
+        },
+        {
+            "value": "MTH",
+            "location": "NK1-3-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 52,
+            "locationDescription": "Relationship - Identifier"
+        },
+        {
+            "value": "Mother",
+            "location": "NK1-3-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 53,
+            "locationDescription": "Relationship - Text"
+        },
+        {
+            "value": "HL70063",
+            "location": "NK1-3-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 54,
+            "locationDescription": "Relationship - Name of Coding System"
+        },
+        {
+            "value": "81 Page Pl",
+            "location": "NK1-4-1-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 55,
+            "locationDescription": "Address - Street Address - Street or Mailing Address"
+        },
+        {
+            "value": "GR",
+            "location": "NK1-4-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 56,
+            "locationDescription": "Address - City"
+        },
+        {
+            "value": "MI",
+            "location": "NK1-4-4",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 57,
+            "locationDescription": "Address - State or Province"
+        },
+        {
+            "value": "49544",
+            "location": "NK1-4-5",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 58,
+            "locationDescription": "Address - Zip or Postal Code"
+        },
+        {
+            "value": "USA",
+            "location": "NK1-4-6",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 59,
+            "locationDescription": "Address - Country"
+        },
+        {
+            "value": "P",
+            "location": "NK1-4-7",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 60,
+            "locationDescription": "Address - Address Type"
+        },
+        {
+            "value": "PRN",
+            "location": "NK1-5-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 61,
+            "locationDescription": "Phone Number - Telecommunication Use Code"
+        },
+        {
+            "value": "PH",
+            "location": "NK1-5-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 62,
+            "locationDescription": "Phone Number - Telecommunication Equipment Type"
+        },
+        {
+            "value": "616",
+            "location": "NK1-5-6",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 63,
+            "locationDescription": "Phone Number - Area/City Code"
+        },
+        {
+            "value": "9245843",
+            "location": "NK1-5-7",
+            "fieldRepetition": 1,
+            "segmentIndex": 3,
+            "valueIndex": 64,
+            "locationDescription": "Phone Number - Local Number"
+        },
+        {
+            "value": "ORC",
+            "location": "ORC-0",
+            "fieldRepetition": 1,
+            "segmentIndex": 4,
+            "valueIndex": 65,
+            "locationDescription": "Common Order"
+        },
+        {
+            "value": "RE",
+            "location": "ORC-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 4,
+            "valueIndex": 66,
+            "locationDescription": "Order Control"
+        },
+        {
+            "value": "V51L2.3",
+            "location": "ORC-3-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 4,
+            "valueIndex": 67,
+            "locationDescription": "Filler Order Number - Entity Identifier"
+        },
+        {
+            "value": "AIRA",
+            "location": "ORC-3-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 4,
+            "valueIndex": 68,
+            "locationDescription": "Filler Order Number - Namespace ID"
+        },
+        {
+            "value": "I-23432",
+            "location": "ORC-10-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 4,
+            "valueIndex": 69,
+            "locationDescription": "Entered By - ID Number"
+        },
+        {
+            "value": "Burden",
+            "location": "ORC-10-2-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 4,
+            "valueIndex": 70,
+            "locationDescription": "Entered By - Family Name - Surname"
+        },
+        {
+            "value": "Donna",
+            "location": "ORC-10-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 4,
+            "valueIndex": 71,
+            "locationDescription": "Entered By - Given Name"
+        },
+        {
+            "value": "A",
+            "location": "ORC-10-4",
+            "fieldRepetition": 1,
+            "segmentIndex": 4,
+            "valueIndex": 72,
+            "locationDescription": "Entered By - Second and Further Given Names or Initials Thereof"
+        },
+        {
+            "value": "NIST-AA-1",
+            "location": "ORC-10-9-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 4,
+            "valueIndex": 73,
+            "locationDescription": "Entered By - Assigning Authority - Namespace ID"
+        },
+        {
+            "value": "57422",
+            "location": "ORC-12-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 4,
+            "valueIndex": 74,
+            "locationDescription": "Ordering Provider - ID Number"
+        },
+        {
+            "value": "RADON",
+            "location": "ORC-12-2-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 4,
+            "valueIndex": 75,
+            "locationDescription": "Ordering Provider - Family Name - Surname"
+        },
+        {
+            "value": "NICHOLAS",
+            "location": "ORC-12-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 4,
+            "valueIndex": 76,
+            "locationDescription": "Ordering Provider - Given Name"
+        },
+        {
+            "value": "NIST-AA-1",
+            "location": "ORC-12-9-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 4,
+            "valueIndex": 77,
+            "locationDescription": "Ordering Provider - Assigning Authority - Namespace ID"
+        },
+        {
+            "value": "L",
+            "location": "ORC-12-10",
+            "fieldRepetition": 1,
+            "segmentIndex": 4,
+            "valueIndex": 78,
+            "locationDescription": "Ordering Provider - Name Type Code"
+        },
+        {
+            "value": "RXA",
+            "location": "RXA-0",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 79,
+            "locationDescription": "Pharmacy/Treatment Administration"
+        },
+        {
+            "value": "0",
+            "location": "RXA-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 80,
+            "locationDescription": "Give Sub-ID Counter"
+        },
+        {
+            "value": "1",
+            "location": "RXA-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 81,
+            "locationDescription": "Administration Sub-ID Counter"
+        },
+        {
+            "value": "20170301",
+            "location": "RXA-3-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 82,
+            "locationDescription": "Date/Time Start of Administration - Time"
+        },
+        {
+            "value": "21",
+            "location": "RXA-5-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 83,
+            "locationDescription": "Administered Code - Identifier"
+        },
+        {
+            "value": "Varicella",
+            "location": "RXA-5-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 84,
+            "locationDescription": "Administered Code - Text"
+        },
+        {
+            "value": "CVX",
+            "location": "RXA-5-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 85,
+            "locationDescription": "Administered Code - Name of Coding System"
+        },
+        {
+            "value": "0.5",
+            "location": "RXA-6",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 86,
+            "locationDescription": "Administered Amount"
+        },
+        {
+            "value": "mL",
+            "location": "RXA-7-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 87,
+            "locationDescription": "Administered Units - Identifier"
+        },
+        {
+            "value": "milliliters",
+            "location": "RXA-7-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 88,
+            "locationDescription": "Administered Units - Text"
+        },
+        {
+            "value": "UCUM",
+            "location": "RXA-7-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 89,
+            "locationDescription": "Administered Units - Name of Coding System"
+        },
+        {
+            "value": "00",
+            "location": "RXA-9-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 90,
+            "locationDescription": "Administration Notes - Identifier"
+        },
+        {
+            "value": "Administered",
+            "location": "RXA-9-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 91,
+            "locationDescription": "Administration Notes - Text"
+        },
+        {
+            "value": "NIP001",
+            "location": "RXA-9-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 92,
+            "locationDescription": "Administration Notes - Name of Coding System"
+        },
+        {
+            "value": "Y5841RR",
+            "location": "RXA-15",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 93,
+            "locationDescription": "Substance Lot Number"
+        },
+        {
+            "value": "MSD",
+            "location": "RXA-17-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 94,
+            "locationDescription": "Substance Manufacturer Name - Identifier"
+        },
+        {
+            "value": "Merck and Co",
+            "location": "RXA-17-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 95,
+            "locationDescription": "Substance Manufacturer Name - Text"
+        },
+        {
+            "value": "MVX",
+            "location": "RXA-17-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 96,
+            "locationDescription": "Substance Manufacturer Name - Name of Coding System"
+        },
+        {
+            "value": "A",
+            "location": "RXA-21",
+            "fieldRepetition": 1,
+            "segmentIndex": 5,
+            "valueIndex": 97,
+            "locationDescription": "Action Code - RXA"
+        },
+        {
+            "value": "RXR",
+            "location": "RXR-0",
+            "fieldRepetition": 1,
+            "segmentIndex": 6,
+            "valueIndex": 98,
+            "locationDescription": "Pharmacy/Treatment Route"
+        },
+        {
+            "value": "SC",
+            "location": "RXR-1-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 6,
+            "valueIndex": 99,
+            "locationDescription": "Route - Identifier"
+        },
+        {
+            "value": "HL70162",
+            "location": "RXR-1-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 6,
+            "valueIndex": 100,
+            "locationDescription": "Route - Name of Coding System"
+        },
+        {
+            "value": "RA",
+            "location": "RXR-2-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 6,
+            "valueIndex": 101,
+            "locationDescription": "Administration Site - Identifier"
+        },
+        {
+            "value": "HL70163",
+            "location": "RXR-2-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 6,
+            "valueIndex": 102,
+            "locationDescription": "Administration Site - Name of Coding System"
+        },
+        {
+            "value": "OBX",
+            "location": "OBX-0",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 103,
+            "locationDescription": "Observation/Result"
+        },
+        {
+            "value": "1",
+            "location": "OBX-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 104,
+            "locationDescription": "Set ID - OBX"
+        },
+        {
+            "value": "CE",
+            "location": "OBX-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 105,
+            "locationDescription": "Value Type"
+        },
+        {
+            "value": "64994-7",
+            "location": "OBX-3-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 106,
+            "locationDescription": "Observation Identifier - Identifier"
+        },
+        {
+            "value": "Vaccine funding program eligibility category",
+            "location": "OBX-3-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 107,
+            "locationDescription": "Observation Identifier - Text"
+        },
+        {
+            "value": "LN",
+            "location": "OBX-3-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 108,
+            "locationDescription": "Observation Identifier - Name of Coding System"
+        },
+        {
+            "value": "1",
+            "location": "OBX-4",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 109,
+            "locationDescription": "Observation Sub-ID"
+        },
+        {
+            "value": "V02",
+            "location": "OBX-5-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 110,
+            "locationDescription": "Observation Value - component"
+        },
+        {
+            "value": "VFC eligible - Medicaid/Medicaid Managed Care",
+            "location": "OBX-5-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 111,
+            "locationDescription": "Observation Value - component"
+        },
+        {
+            "value": "HL70064",
+            "location": "OBX-5-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 112,
+            "locationDescription": "Observation Value - component"
+        },
+        {
+            "value": "F",
+            "location": "OBX-11",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 113,
+            "locationDescription": "Observation Result Status"
+        },
+        {
+            "value": "20170301",
+            "location": "OBX-14-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 114,
+            "locationDescription": "Date/Time of the Observation - Time"
+        },
+        {
+            "value": "VXC40",
+            "location": "OBX-17-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 115,
+            "locationDescription": "Observation Method - Identifier"
+        },
+        {
+            "value": "Eligibility captured at the immunization level",
+            "location": "OBX-17-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 116,
+            "locationDescription": "Observation Method - Text"
+        },
+        {
+            "value": "CDCPHINVS",
+            "location": "OBX-17-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 7,
+            "valueIndex": 117,
+            "locationDescription": "Observation Method - Name of Coding System"
+        },
+        {
+            "value": "OBX",
+            "location": "OBX-0",
+            "fieldRepetition": 1,
+            "segmentIndex": 8,
+            "valueIndex": 118,
+            "locationDescription": "Observation/Result"
+        },
+        {
+            "value": "2",
+            "location": "OBX-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 8,
+            "valueIndex": 119,
+            "locationDescription": "Set ID - OBX"
+        },
+        {
+            "value": "CE",
+            "location": "OBX-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 8,
+            "valueIndex": 120,
+            "locationDescription": "Value Type"
+        },
+        {
+            "value": "30956-7",
+            "location": "OBX-3-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 8,
+            "valueIndex": 121,
+            "locationDescription": "Observation Identifier - Identifier"
+        },
+        {
+            "value": "Vaccine Type",
+            "location": "OBX-3-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 8,
+            "valueIndex": 122,
+            "locationDescription": "Observation Identifier - Text"
+        },
+        {
+            "value": "LN",
+            "location": "OBX-3-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 8,
+            "valueIndex": 123,
+            "locationDescription": "Observation Identifier - Name of Coding System"
+        },
+        {
+            "value": "2",
+            "location": "OBX-4",
+            "fieldRepetition": 1,
+            "segmentIndex": 8,
+            "valueIndex": 124,
+            "locationDescription": "Observation Sub-ID"
+        },
+        {
+            "value": "21",
+            "location": "OBX-5-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 8,
+            "valueIndex": 125,
+            "locationDescription": "Observation Value - component"
+        },
+        {
+            "value": "Varicella",
+            "location": "OBX-5-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 8,
+            "valueIndex": 126,
+            "locationDescription": "Observation Value - component"
+        },
+        {
+            "value": "CVX",
+            "location": "OBX-5-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 8,
+            "valueIndex": 127,
+            "locationDescription": "Observation Value - component"
+        },
+        {
+            "value": "F",
+            "location": "OBX-11",
+            "fieldRepetition": 1,
+            "segmentIndex": 8,
+            "valueIndex": 128,
+            "locationDescription": "Observation Result Status"
+        },
+        {
+            "value": "OBX",
+            "location": "OBX-0",
+            "fieldRepetition": 1,
+            "segmentIndex": 9,
+            "valueIndex": 129,
+            "locationDescription": "Observation/Result"
+        },
+        {
+            "value": "3",
+            "location": "OBX-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 9,
+            "valueIndex": 130,
+            "locationDescription": "Set ID - OBX"
+        },
+        {
+            "value": "TS",
+            "location": "OBX-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 9,
+            "valueIndex": 131,
+            "locationDescription": "Value Type"
+        },
+        {
+            "value": "29768-9",
+            "location": "OBX-3-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 9,
+            "valueIndex": 132,
+            "locationDescription": "Observation Identifier - Identifier"
+        },
+        {
+            "value": "Date vaccine information statement published",
+            "location": "OBX-3-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 9,
+            "valueIndex": 133,
+            "locationDescription": "Observation Identifier - Text"
+        },
+        {
+            "value": "LN",
+            "location": "OBX-3-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 9,
+            "valueIndex": 134,
+            "locationDescription": "Observation Identifier - Name of Coding System"
+        },
+        {
+            "value": "2",
+            "location": "OBX-4",
+            "fieldRepetition": 1,
+            "segmentIndex": 9,
+            "valueIndex": 135,
+            "locationDescription": "Observation Sub-ID"
+        },
+        {
+            "value": "20080313",
+            "location": "OBX-5",
+            "fieldRepetition": 1,
+            "segmentIndex": 9,
+            "valueIndex": 136,
+            "locationDescription": "Observation Value"
+        },
+        {
+            "value": "F",
+            "location": "OBX-11",
+            "fieldRepetition": 1,
+            "segmentIndex": 9,
+            "valueIndex": 137,
+            "locationDescription": "Observation Result Status"
+        },
+        {
+            "value": "OBX",
+            "location": "OBX-0",
+            "fieldRepetition": 1,
+            "segmentIndex": 10,
+            "valueIndex": 138,
+            "locationDescription": "Observation/Result"
+        },
+        {
+            "value": "4",
+            "location": "OBX-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 10,
+            "valueIndex": 139,
+            "locationDescription": "Set ID - OBX"
+        },
+        {
+            "value": "TS",
+            "location": "OBX-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 10,
+            "valueIndex": 140,
+            "locationDescription": "Value Type"
+        },
+        {
+            "value": "29769-7",
+            "location": "OBX-3-1",
+            "fieldRepetition": 1,
+            "segmentIndex": 10,
+            "valueIndex": 141,
+            "locationDescription": "Observation Identifier - Identifier"
+        },
+        {
+            "value": "Date vaccine information statement presented",
+            "location": "OBX-3-2",
+            "fieldRepetition": 1,
+            "segmentIndex": 10,
+            "valueIndex": 142,
+            "locationDescription": "Observation Identifier - Text"
+        },
+        {
+            "value": "LN",
+            "location": "OBX-3-3",
+            "fieldRepetition": 1,
+            "segmentIndex": 10,
+            "valueIndex": 143,
+            "locationDescription": "Observation Identifier - Name of Coding System"
+        },
+        {
+            "value": "2",
+            "location": "OBX-4",
+            "fieldRepetition": 1,
+            "segmentIndex": 10,
+            "valueIndex": 144,
+            "locationDescription": "Observation Sub-ID"
+        },
+        {
+            "value": "20170301",
+            "location": "OBX-5",
+            "fieldRepetition": 1,
+            "segmentIndex": 10,
+            "valueIndex": 145,
+            "locationDescription": "Observation Value"
+        },
+        {
+            "value": "F",
+            "location": "OBX-11",
+            "fieldRepetition": 1,
+            "segmentIndex": 10,
+            "valueIndex": 146,
+            "locationDescription": "Observation Result Status"
+        }
+    ],
+    "sender": {
+        "pin": "1255-60-20",
+        "name": "Xfer Test",
+        "id": 2771
+    },
+    "messageReceived": "MSH|^~\\&||1255-60-20|MCIR|MDCH|20170301131228-0500||VXU^V04^VXU_V04|3WzJ-A.01.01.2aF|T|2.5.1|\nPID|||3WzJ-A.01.01^^^AIRA-TEST^MR||McCracken^Vinvella^^^^^L|Butler^Pauline|20130225|F||2076-8^Native Hawaiian or Other Pacific Islander^HL70005|81 Page Pl^^GR^MI^49544^USA^P||^PRN^PH^^^616^9245843|||||||||2135-2^Hispanic or Latino^HL70005|\nPD1|||||||||||02^Reminder/Recall - any method^HL70215|||||A|20170301|20170301|\nNK1|1|McCracken^Pauline^^^^^L|MTH^Mother^HL70063|81 Page Pl^^GR^MI^49544^USA^P|^PRN^PH^^^616^9245843|\nORC|RE||V51L2.3^AIRA|||||||I-23432^Burden^Donna^A^^^^^NIST-AA-1||57422^RADON^NICHOLAS^^^^^^NIST-AA-1^L|\nRXA|0|1|20170301||21^Varicella^CVX|0.5|mL^milliliters^UCUM||00^Administered^NIP001||||||Y5841RR||MSD^Merck and Co^MVX||||A|\nRXR|SC^^HL70162|RA^^HL70163|\nOBX|1|CE|64994-7^Vaccine funding program eligibility category^LN|1|V02^VFC eligible - Medicaid/Medicaid Managed Care^HL70064||||||F|||20170301|||VXC40^Eligibility captured at the immunization level^CDCPHINVS|\nOBX|2|CE|30956-7^Vaccine Type^LN|2|21^Varicella^CVX||||||F|\nOBX|3|TS|29768-9^Date vaccine information statement published^LN|2|20080313||||||F|\nOBX|4|TS|29769-7^Date vaccine information statement presented^LN|2|20170301||||||F|\n",
+    "messageResponse": "MSH|^~\\&|MCIR|MDCH||1255-60-20|20170919092927-0400||ACK^V04^ACK|20170919092927-0400.0|T|2.5.1|\nSFT|MCIR|0|MDCH|2|\nMSA|AA|3WzJ-A.01.01.2aF|Message accepted. Confirmation: 03A9CB49EC0F3611810F44A1E1D71B0E-2771|\n"
+}

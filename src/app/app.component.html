@@ -1,0 +1,7 @@
+<h1>
+  {{title}}
+</h1>
+<h3>This is a demo of the HL7 parsing cabilities of this component. </h3>
+<textarea id="textAreaBox" class="form-control" rows="10"  [(ngModel)]="textareavalue"></textarea>
+
+<app-hl7-view [hl7Text]='textareavalue' (textClicked)="handleTextClicked($event)" ></app-hl7-view>

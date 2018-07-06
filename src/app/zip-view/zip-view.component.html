@@ -1,0 +1,5 @@
+<h4>Parsed This: </h4>
+<!-- <pre style="font-family: monospace;" contenteditable="true" [(ngModel)]='superCoolStuff'> -->
+<pre style="font-family: monospace;" >
+<span *ngFor=" let list of testThings; let rowIdx = index" ><span *ngFor=" let part of list; let colIdx = index"><span *ngIf='part.location' container="body" popoverTitle='{{part.location}}'  popover='{{part.locationDescription}}' [outsideClick]="true" triggers="mouseenter:mouseleave" [ngClass]='{"hl7Part": part.location != "anything", "separator": part.location=="MSH-1"}' (click)="clickPart(part)">{{part.value}}</span><span *ngIf='!part.location' class='separator'>{{part.value}}</span></span>
+</span></pre>
